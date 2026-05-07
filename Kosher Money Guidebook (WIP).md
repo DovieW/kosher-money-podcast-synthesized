@@ -1,3 +1,13 @@
+---
+title: Kosher Money Guidebook (WIP)
+slug: kosher-money-guidebook
+description: A growing long-form outline that maps the future guidebook across budgeting, debt, housing, simchas, careers, investing, and giving.
+kind: Guidebook
+order: 1
+status: wip
+featured: false
+---
+
 # Kosher Money Guidebook
 
 > Status: outline scaffold. This file is intentionally a table of contents and chapter plan first, not the finished book.

@@ -1,3 +1,13 @@
+---
+title: How Much Money Do You Need to Buy a House for a Frum Family?
+slug: how-much-money-do-you-need-to-buy-a-house-for-a-frum-family
+description: A source-backed synthesis on what the corpus suggests about readiness, income, timing, and tradeoffs for frum families thinking about homeownership.
+kind: Q&A
+order: 4
+status: published
+featured: false
+---
+
 # How Much Money Do You Need to Buy a House for a Frum Family?
 
 ## Original question

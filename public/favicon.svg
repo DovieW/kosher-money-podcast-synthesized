@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Kosher Money Synthesized</title>
+  <desc id="desc">A rounded square icon with the letters KM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f4ed8" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)" />
+  <path d="M28 96V32h14v27l25-27h18L58 61l31 35H71L45 66v30H28Zm68 0V32h14v64H96Z" fill="#f8fafc" />
+</svg>

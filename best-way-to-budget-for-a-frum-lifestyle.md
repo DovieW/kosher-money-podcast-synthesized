@@ -1,3 +1,13 @@
+---
+title: The Best Way to Budget for a Frum Lifestyle
+slug: best-way-to-budget-for-a-frum-lifestyle
+description: A practical frum budgeting framework built around realistic monthly spending and sinking funds for the predictable spikes of Jewish family life.
+kind: Guide
+order: 2
+status: published
+featured: true
+---
+
 # The Best Way to Budget for a Frum Lifestyle
 
 ## Overview

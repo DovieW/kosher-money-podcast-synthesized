@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const homeLink = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Page not found | Kosher Money, Synthesized" description="The requested page could not be found.">
+  <section class="container not-found">
+    <p class="section-heading__eyebrow">404</p>
+    <h1>That page wandered off.</h1>
+    <p>
+      The article may have been renamed, moved, or never existed in the first place — a surprisingly
+      relatable money feeling.
+    </p>
+    <a href={homeLink} class="button button--primary">Return home</a>
+  </section>
+</BaseLayout>
