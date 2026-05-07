@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const homeLink = import.meta.env.BASE_URL;
+const homeLink = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
 ---
 
 <BaseLayout title="Page not found | Kosher Money, Synthesized" description="The requested page could not be found.">

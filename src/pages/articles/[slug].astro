@@ -17,36 +17,37 @@ if (!article) {
 }
 
 const baseUrl = import.meta.env.BASE_URL;
+const baseRoot = `${baseUrl.replace(/\/$/, '')}/`;
 ---
 
 <BaseLayout title={`${article.title} | Kosher Money, Synthesized`} description={article.description}>
-  <section class="article-hero container article-hero--page">
-    <div class="article-hero__meta-row">
+  <section class="container article-page-header">
+    <a href={`${baseRoot}#articles`} class="back-link">← Back to all articles</a>
+
+    <div class="article-meta-row">
       <span class="pill">{article.kind}</span>
       {article.status !== 'published' && <span class="pill pill--muted">{article.status}</span>}
-      <span class="article-hero__reading-time">{article.readingMinutes} min read</span>
+      <span class="article-reading-time">{article.readingMinutes} min read</span>
     </div>
 
     <h1>{article.title}</h1>
-    <p class="article-hero__description">{article.description}</p>
+    <p class="article-page-header__description">{article.description}</p>
   </section>
 
   <section class="container article-shell">
-    <a href={`${baseUrl}#articles`} class="back-link">← Back to the article library</a>
-
     <article class="article-body" set:html={article.html} />
 
     {(article.previous || article.next) && (
       <nav class="article-pagination" aria-label="Article pagination">
         {article.previous ? (
-          <a href={`${baseUrl}articles/${article.previous.slug}/`} class="article-pagination__card">
+          <a href={`${baseRoot}articles/${article.previous.slug}/`} class="article-pagination__card">
             <span class="article-pagination__label">Previous</span>
             <strong>{article.previous.title}</strong>
           </a>
         ) : <div />}
 
         {article.next ? (
-          <a href={`${baseUrl}articles/${article.next.slug}/`} class="article-pagination__card article-pagination__card--next">
+          <a href={`${baseRoot}articles/${article.next.slug}/`} class="article-pagination__card article-pagination__card--next">
             <span class="article-pagination__label">Next</span>
             <strong>{article.next.title}</strong>
           </a>
